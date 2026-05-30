@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shomo Glow — Luxury Candles</title>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ==================== -->
+<!-- فيديو الإدخال        -->
+<!-- ==================== -->
+<div id="intro-video">
+  <video id="welcomeVideo" autoplay muted playsinline>
+    <source src="images/intro.mp4.MP4" type="video/mp4">
+  </video>
+  <div class="intro-overlay"></div>
+</div>
+
+<!-- ==================== -->
+<!-- شريط التنقل          -->
+<!-- ==================== -->
+<nav class="navbar">
+  <div class="logo"><img src="images/logo.png.png" alt="Shomo Glow"></div>
+  <ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#services">Services</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#products">Products</a></li>
+    <li><a href="#lux-footer">Contact</a></li>
+  </ul>
+  <div class="nav-icons">
+    <div class="icon-circle"><i class="fa-solid fa-magnifying-glass"></i></div>
+    <div class="icon-circle"><i class="fa-solid fa-bag-shopping"></i></div>
+    <div class="icon-circle"><i class="fa-solid fa-user"></i></div>
+  </div>
+</nav>
+
+<!-- ==================== -->
+<!-- الصفحة الرئيسية HERO -->
+<!-- ==================== -->
+<section class="hero" id="home">
+  <video autoplay muted loop playsinline class="bg-video">
+    <source src="images/hero.mp4.MP4" type="video/mp4">
+  </video>
+  <div class="overlay"></div>
+  <div class="hero-content">
+    <p class="hero-tag">✦ Handcrafted Luxury</p>
+    <h1>Shomo<br><em>Glow</em></h1>
+    <p class="hero-sub">Moments of calm, warmth, and love — poured into every candle.</p>
+    <div class="hero-btns">
+      <a href="#products" class="btn-primary">Explore Collection</a>
+      <a href="#about" class="btn-ghost">Our Story</a>
+    </div>
+  </div>
+  <!-- سهم التمرير للأسفل -->
+  <div class="hero-scroll-hint">
+    <div class="scroll-line"></div>
+    <i class="fa-solid fa-chevron-down scroll-arrow"></i>
+  </div>
+</section>
+
+
+
+<!-- ==================== -->
+<!-- سكشن الخدمات         -->
+<!-- ==================== -->
+<div class="services-section" id="services">
+  <div class="service-card">
+    <div class="icon-box"><i class="fa-solid fa-leaf"></i></div>
+    <h3>Natural Ingredients</h3>
+    <p>Premium natural wax for a clean, calming atmosphere in every room.</p>
+  </div>
+  <div class="service-card">
+    <div class="icon-box"><i class="fa-solid fa-heart"></i></div>
+    <h3>Handmade with Love</h3>
+    <p>Carefully handcrafted for warmth, elegance, and emotional comfort.</p>
+  </div>
+  <div class="service-card">
+    <div class="icon-box"><i class="fa-solid fa-sun"></i></div>
+    <h3>Warm Aromas</h3>
+    <p>Soothing scents inspired by nature, designed to elevate your mood.</p>
+  </div>
+</div>
+
+<!-- ==================== -->
+<!-- سكشن About Me        -->
+<!-- ==================== -->
+<section class="about" id="about">
+
+  <!-- فيديو كبير بإطار فوق -->
+  <div class="about-video-full reveal-up">
+    <div class="about-video-frame">
+      <video autoplay muted loop playsinline class="about-video-big">
+        <source src="images/about.mp4.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="about-video-badge">
+      <span class="badge-num" data-target="500">0</span><span>+</span>
+      <p>Happy Clients</p>
+    </div>
+  </div>
+
+  <!-- نص + مربعات إحصائيات تحت -->
+  <div class="about-bottom reveal-up">
+    <div class="about-text-block">
+      <p class="about-tag">✦ Our Story</p>
+      <h2 class="about-title">About Our Candle Studio</h2>
+      <p class="about-desc">We create handcrafted candles designed to bring warmth, peace, and elegance into your space. Every piece is carefully made using natural ingredients and inspired by calm moments of life.</p>
+    </div>
+    <div class="about-stats">
+      <div class="stat-box">
+        <span class="stat-num" data-target="3">0</span><span>+</span>
+        <p>Years of Craft</p>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num" data-target="40">0</span><span>+</span>
+        <p>Unique Scents</p>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num" data-target="500">0</span><span>+</span>
+        <p>Orders Delivered</p>
+      </div>
+      <div class="stat-box">
+        <span class="stat-num" data-target="100">0</span><span>%</span>
+        <p>Natural Wax</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ==================== -->
+<!-- سكشن العرض الخاص     -->
+<!-- ==================== -->
+<section class="offer-modern">
+  <div class="offer-images">
+    <div class="img-big"><img src="images/offer.jpg.jpg" alt=""></div>
+    <div class="img-small">
+      <video autoplay muted loop playsinline>
+        <source src="images/offer.mp4.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+  <div class="offer-box">
+    <p class="offer-tag">✦ Every Order</p>
+    <h2>AT SHOMO GLOW</h2>
+    <p>Every order arrives in a special package and includes a complimentary gift to make your experience truly shine.</p>
+    <a href="#products" class="btn-primary" style="margin-top:25px;display:inline-block;">Shop Now</a>
+  </div>
+</section>
+
+<!-- ==================== -->
+<!-- سكشن Best Sellers    -->
+<!-- ==================== -->
+<section class="bestsellers-page" id="products">
+  <div class="bestsellers-bg-text">BEST SELLERS</div>
+  <div class="bestsellers-header">
+    <p class="bs-tag">✦ Our Top Picks</p>
+    <h1 class="bs-title">Best <em>Sellers</em></h1>
+    <p class="bs-sub">The candles our customers can't stop loving</p>
+  </div>
+
+  <!-- أسماء الشموع كروابط للنقر عليها -->
+  <div class="candle-tabs">
+    <span class="tab-active" onclick="showCard(0,this)">Vanilla</span>
+    <span onclick="showCard(1,this)">Classic</span>
+    <span onclick="showCard(2,this)">Wax Island</span>
+    <span onclick="showCard(3,this)">Stone</span>
+  </div>
+
+  <!-- بطاقات الشموع القابلة للقلب -->
+  <div class="flip-container">
+
+    <div class="flip-card active-card">
+      <div class="flip-inner">
+        <div class="flip-front"><img src="images/p1.jpg.jpg"></div>
+        <div class="flip-back">
+          <div class="flip-back-glow"></div>
+          <h2>Vanilla Candle</h2>
+          <p class="flip-price">$24.99</p>
+          <span>120 sold this week</span>
+          <div class="flip-divider"></div>
+          <i class="fa-solid fa-bag-shopping flip-icon"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front"><img src="images/p2.jpg.jpg"></div>
+        <div class="flip-back">
+          <div class="flip-back-glow"></div>
+          <h2>Classic Candle</h2>
+          <p class="flip-price">$27.99</p>
+          <span>98 sold this week</span>
+          <div class="flip-divider"></div>
+          <i class="fa-solid fa-bag-shopping flip-icon"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front"><img src="images/p3.jpg.jpg"></div>
+        <div class="flip-back">
+          <div class="flip-back-glow"></div>
+          <h2>Wax Island</h2>
+          <p class="flip-price">$21.99</p>
+          <span>143 sold this week</span>
+          <div class="flip-divider"></div>
+          <i class="fa-solid fa-bag-shopping flip-icon"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="flip-card">
+      <div class="flip-inner">
+        <div class="flip-front"><img src="images/p4.jpg.jpg"></div>
+        <div class="flip-back">
+          <div class="flip-back-glow"></div>
+          <h2>Stone Candle</h2>
+          <p class="flip-price">$19.99</p>
+          <span>175 sold this week</span>
+          <div class="flip-divider"></div>
+          <i class="fa-solid fa-bag-shopping flip-icon"></i>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- شريط معلومات أسفل السكشن -->
+  <div class="bs-bottom-strip">
+    <span>Free Shipping on orders over $50</span>
+    <span>✦</span>
+    <span>Handcrafted in Libya</span>
+    <span>✦</span>
+    <span>100% Natural Wax</span>
+  </div>
+</section>
+
+<!-- ======================== -->
+<!-- سكشن Luxury Collection   -->
+<!-- ======================== -->
+<section class="luxury-products">
+  <h1 class="luxury-title">Luxury Collection</h1>
+  <div class="luxury-container">
+    <div class="luxury-card"><div class="img-wrapper"><img src="images/lx1a.jpg.jpg" class="main-img"><img src="images/lx1b.jpg.jpg" class="hover-img"></div><div class="luxury-info"><div><h2>Vanilla Dream</h2><p>$24.99</p></div><button class="lux-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button></div></div>
+    <div class="luxury-card"><div class="img-wrapper"><img src="images/lx2a.jpg.jpg" class="main-img"><img src="images/lx2b.jpg.jpg" class="hover-img"></div><div class="luxury-info"><div><h2>Soft Glow</h2><p>$29.99</p></div><button class="lux-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button></div></div>
+    <div class="luxury-card"><div class="img-wrapper"><img src="images/lx3a.jpg.jpg" class="main-img"><img src="images/lx3b.jpg.jpg" class="hover-img"></div><div class="luxury-info"><div><h2>Moon Wax</h2><p>$21.99</p></div><button class="lux-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button></div></div>
+    <div class="luxury-card"><div class="img-wrapper"><img src="images/lx4a.jpg.jpg" class="main-img"><img src="images/lx4b.jpg.jpg" class="hover-img"></div><div class="luxury-info"><div><h2>Golden Flame</h2><p>$31.99</p></div><button class="lux-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button></div></div>
+    <div class="luxury-card"><div class="img-wrapper"><img src="images/lx5a.jpg.jpg" class="main-img"><img src="images/lx5b.jpg.jpg" class="hover-img"></div><div class="luxury-info"><div><h2>Velvet Candle</h2><p>$27.99</p></div><button class="lux-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button></div></div>
+    <div class="luxury-card"><div class="img-wrapper"><img src="images/lx6a.jpg.jpg" class="main-img"><img src="images/lx6b.jpg.jpg" class="hover-img"></div><div class="luxury-info"><div><h2>Elegant Wax</h2><p>$32.99</p></div><button class="lux-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button></div></div>
+    <div class="luxury-card"><div class="img-wrapper"><img src="images/lx7a.jpg.jpg" class="main-img"><img src="images/lx7b.jpg.jpg" class="hover-img"></div><div class="luxury-info"><div><h2>Night Glow</h2><p>$25.99</p></div><button class="lux-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button></div></div>
+    <div class="luxury-card"><div class="img-wrapper"><img src="images/lx8a.jpg.jpg" class="main-img"><img src="images/lx8b.jpg.jpg" class="hover-img"></div><div class="luxury-info"><div><h2>Royal Flame</h2><p>$34.99</p></div><button class="lux-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button></div></div>
+    <div class="luxury-card"><div class="img-wrapper"><img src="images/lx9a.jpg.jpg" class="main-img"><img src="images/lx9b.jpg.jpg" class="hover-img"></div><div class="luxury-info"><div><h2>Velvet Rose</h2><p>$27.99</p></div><button class="lux-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button></div></div>
+    <div class="luxury-card"><div class="img-wrapper"><img src="images/lx10a.jpg.jpg" class="main-img"><img src="images/lx10b.jpg.jpg" class="hover-img"></div><div class="luxury-info"><div><h2>Elegant Wax II</h2><p>$32.99</p></div><button class="lux-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button></div></div>
+    <div class="luxury-card"><div class="img-wrapper"><img src="images/lx11a.jpg.jpg" class="main-img"><img src="images/lx11b.jpg.jpg" class="hover-img"></div><div class="luxury-info"><div><h2>Night Glow II</h2><p>$25.99</p></div><button class="lux-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button></div></div>
+    <div class="luxury-card"><div class="img-wrapper"><img src="images/lx12a.jpg.jpg" class="main-img"><img src="images/lx12b.jpg.jpg" class="hover-img"></div><div class="luxury-info"><div><h2>Royal Flame II</h2><p>$14.99</p></div><button class="lux-cart-btn"><i class="fa-solid fa-bag-shopping"></i></button></div></div>
+  </div>
+
+  <!-- عنوان ذهبي متحرك -->
+  <h4 id="gold-end-title">
+    <span class="word">The</span>
+    <span class="word">distinguished</span>
+  </h4>
+
+  <!-- صور فوق -->
+  <div class="top-images">
+    <img src="images/lux1.jpg.jpg" alt="">
+    <img src="images/lux2.jpg.jpg" alt="">
+    <img src="images/lux3.jpg.jpg" alt="">
+  </div>
+
+  <!-- فيديوهات -->
+  <div class="lux-videos">
+    <div class="video-card"><video onclick="this.paused?this.play():this.pause()"><source src="images/lux1.mp4.mp4" type="video/mp4"></video></div>
+    <div class="video-card"><video onclick="this.paused?this.play():this.pause()"><source src="images/lux2.mp4.mp4" type="video/mp4"></video></div>
+    <div class="video-card"><video onclick="this.paused?this.play():this.pause()"><source src="images/lux3.mp4.mp4" type="video/mp4"></video></div>
+  </div>
+</section>
+
+<!-- ========================== -->
+<!-- سكشن New Collection        -->
+<!-- ألوان برغندي + وردي فاتح  -->
+<!-- ========================== -->
+<section class="burgundy-section">
+  <div class="burgundy-text">
+    <span class="small-title">✦ NEW COLLECTION</span>
+    <h1>Burgundy<br>Luxury Mood</h1>
+    <p>Discover our newest candle collection inspired by elegance, warm emotions, and timeless luxury.</p>
+  </div>
+  <div class="burgundy-media">
+    <div class="main-video">
+      <video autoplay muted loop playsinline>
+        <source src="images/burgundy.mp4.mp4" type="video/mp4">
+      </video>
+    </div>
+    <div class="floating-img img1"><img src="images/burg1.jpg.jpg" alt=""></div>
+    <div class="floating-img img2"><img src="images/burg2.jpg.jpg" alt=""></div>
+  </div>
+</section>
+
+<!-- ========================== -->
+<!-- شريط صور متحرك تلقائي      -->
+<!-- ========================== -->
+<section class="gallery-section">
+  <div class="gallery-header">
+    <p class="gallery-tag">✦ Gallery</p>
+    <h2>Our World</h2>
+  </div>
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <div class="marquee-card"><img src="images/g1.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g2.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g7.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g4.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g8.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g6.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g10.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g3.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g9.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g5.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g11.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g12.jpg.jpg"></div>
+      <!-- نسخة مكررة لضمان الحركة اللانهائية -->
+      <div class="marquee-card"><img src="images/g1.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g2.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g7.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g4.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g8.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g6.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g10.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g3.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g9.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g5.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g11.jpg.jpg"></div>
+      <div class="marquee-card"><img src="images/g12.jpg.jpg"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ========================== -->
+<!-- سكشن آراء العملاء          -->
+<!-- ========================== -->
+<section class="lux-reviews">
+  <div class="reviews-header">
+    <p class="review-tag">✦ Testimonials</p>
+    <h1 class="reviews-title">What They Say</h1>
+    <p class="reviews-sub">Words from our beloved customers</p>
+  </div>
+  <div class="reviews-container">
+    <div class="review-card">
+      <div class="review-quote">"</div>
+      <div class="stars">★★★★★</div>
+      <p>The most elegant candles I've ever purchased. The packaging and scent are absolutely unreal.</p>
+      <div class="review-footer">
+        <div class="reviewer-avatar">S</div>
+        <div><h3>Sarah M.</h3><span>Verified Buyer</span></div>
+      </div>
+    </div>
+    <div class="review-card review-featured">
+      <div class="review-quote">"</div>
+      <div class="stars">★★★★★</div>
+      <p>Everything feels luxurious. The details, colors, and fragrance are absolutely perfect. Will order again.</p>
+      <div class="review-footer">
+        <div class="reviewer-avatar">L</div>
+        <div><h3>Lina K.</h3><span>Verified Buyer</span></div>
+      </div>
+    </div>
+    <div class="review-card">
+      <div class="review-quote">"</div>
+      <div class="stars">★★★★★</div>
+      <p>I ordered once and became completely obsessed. Absolutely stunning experience from start to finish.</p>
+      <div class="review-footer">
+        <div class="reviewer-avatar">N</div>
+        <div><h3>Noor A.</h3><span>Verified Buyer</span></div>
+      </div>
+    </div>
+  </div>
+  <!-- شريط الثقة -->
+  <div class="reviews-trust">
+    <div class="trust-item"><i class="fa-solid fa-shield-halved"></i><span>Secure Checkout</span></div>
+    <div class="trust-item"><i class="fa-solid fa-truck"></i><span>Fast Delivery</span></div>
+    <div class="trust-item"><i class="fa-solid fa-rotate-left"></i><span>Easy Returns</span></div>
+    <div class="trust-item"><i class="fa-solid fa-leaf"></i><span>100% Natural</span></div>
+  </div>
+</section>
+
+<!-- ==================== -->
+<!-- الفوتر / التذييل     -->
+<!-- ==================== -->
+<footer class="lux-footer" id="lux-footer">
+  <div class="footer-container">
+    <div class="footer-box">
+      <h1>SHOMO GLOW</h1>
+      <p>Premium handmade candles crafted with warmth, elegance, and luxury.</p>
+      <div class="footer-icons">
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-tiktok"></i>
+        <i class="fa-brands fa-facebook"></i>
+      </div>
+    </div>
+    <div class="footer-box">
+      <h2>Collections</h2>
+      <a href="#">Luxury Candles</a>
+      <a href="#">Best Sellers</a>
+      <a href="#">Gift Box</a>
+      <a href="#">New Collection</a>
+    </div>
+    <div class="footer-box">
+      <h2>Contact</h2>
+      <a href="#">shomoglow@gmail.com</a>
+      <a href="#">+218 91 000 0000</a>
+      <a href="#">Tripoli - Libya</a>
+    </div>
+   
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 SHOMO GLOW — All Rights Reserved</div>
+</footer>
+<!-- ==================== -->
+<!-- Contact Us Popup    -->
+<!-- ==================== -->
+
+<!-- أيقونة التواصل -->
+<div class="contact-fixed-icon" onclick="openContactPopup()">
+  <i class="fa-solid fa-envelope"></i>
+</div>
+
+<!-- النافذة -->
+<div class="contact-popup-overlay" id="contactPopup">
+
+  <div class="contact-popup-box">
+
+    <!-- زر الإغلاق -->
+    <div class="contact-close" onclick="closeContactPopup()">
+      <i class="fa-solid fa-xmark"></i>
+    </div>
+
+    <!-- العنوان -->
+    <div class="contact-popup-header">
+      <p class="contact-tag">✦ Get In Touch</p>
+      <h2>Contact Us</h2>
+    </div>
+
+    <!-- الفورم -->
+    <form class="contact-form">
+
+      <div class="contact-input">
+        <i class="fa-solid fa-user"></i>
+        <input type="text" placeholder="Enter your name">
+      </div>
+
+      <div class="contact-input">
+        <i class="fa-solid fa-envelope"></i>
+        <input type="email" placeholder="Enter your email">
+      </div>
+
+      <div class="contact-input textarea-box">
+        <i class="fa-solid fa-pen"></i>
+        <textarea placeholder="Write your message..."></textarea>
+      </div>
+
+      <button type="submit" class="contact-btn">
+        Send Message
+      </button>
+
+    </form>
+
+  </div>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
